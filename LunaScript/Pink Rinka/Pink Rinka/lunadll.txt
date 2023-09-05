@@ -1,0 +1,24 @@
+// Para evitar posibles problemas de memoria se realiza un bucle que mata rinkas (ya que originalmente salían de la pantalla)
+// Si deseas removerlo o si no usas un generador de rinkas, elimina la sección #0 y #1001, deja la #1000 como #0, y quita el Timer:
+
+#0
+// Inicia bucle:
+// Segundo parámetro es la sección del nivel afectada
+//      |
+//      v
+Trigger,0,1000,0,0,0,0
+
+// Rinka siempre busca al jugador, ir a 1001
+#1000
+Timer,0,1001,0,0,390,0
+//ShowText,0,400,550,3,390,live
+NPCMemSet,210,0x0F0,0,0,0,df
+NPCMemSet,210,0x0F8,101,0,0,df
+NPCMemSet,210,0x122,0,0,0,df
+
+
+// Matar Rinkas, ir a 1000 para dejar de matar
+#1001
+Timer,0,1000,0,0,1,0
+//ShowText,0,300,550,3,10,die
+NPCMemSet,210,0x122,1,0,0,df
