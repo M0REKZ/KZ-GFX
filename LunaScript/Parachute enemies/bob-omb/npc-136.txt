@@ -1,0 +1,4 @@
+heigth=30
+width=24
+frames=2
+framestyle=1

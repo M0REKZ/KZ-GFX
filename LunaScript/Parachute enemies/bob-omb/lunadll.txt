@@ -1,0 +1,13 @@
+#0
+
+
+//bobomba
+NPCMemSet,286,0x0A0,1,0,0,df
+NPCMemSet,286,0x098,0,0,0,df
+NPCMemSet,286,0x088,62,0,0,df
+NPCMemSet,286,0x090,54,0,0,df
+NPCMemSet,285,0x088,30,0,0,df
+NPCMemSet,285,0x090,24,0,0,df
+NPCMemSet,137,0x088,30,0,0,df
+NPCMemSet,137,0x090,24,0,0,df
+NPCMemSet,285,0xE2,136,0,0,w
