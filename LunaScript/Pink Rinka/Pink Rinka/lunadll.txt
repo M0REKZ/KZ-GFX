@@ -1,5 +1,5 @@
 // Para evitar posibles problemas de memoria se realiza un bucle que mata rinkas (ya que originalmente salían de la pantalla)
-// Si deseas removerlo o si no usas un generador de rinkas, elimina la sección #0 y #1001, deja la #1000 como #0, y quita el Timer:
+// Si deseas removerlo o si NO usas un generador de rinkas, elimina la sección #0 y #1001, deja la #1000 como #0, y quita el Timer:
 
 #0
 // Inicia bucle:
