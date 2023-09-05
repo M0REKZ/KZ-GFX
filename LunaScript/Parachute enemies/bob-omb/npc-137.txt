@@ -1,2 +1,4 @@
+width=24
+height=30
 frames=2
 framestyle=1
