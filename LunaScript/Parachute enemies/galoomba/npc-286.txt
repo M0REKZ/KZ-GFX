@@ -1,5 +1,5 @@
 jumphurt=0
-gfxheigth=62
-heigth=62
+width=54
+height=62
 frames=14
 framestyle=0
